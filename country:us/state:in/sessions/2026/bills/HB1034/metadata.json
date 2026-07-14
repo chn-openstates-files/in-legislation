@@ -21,7 +21,11 @@
     }
   ],
   "other_titles": [],
-  "other_identifiers": [],
+  "other_identifiers": [
+    {
+      "identifier": "ocd-bill-in-2026-hb1034"
+    }
+  ],
   "actions": [
     {
       "description": "First reading: referred to Committee on Education",
@@ -61,6 +65,16 @@
       "_processing": {
         "log_file_created": "2025-12-03T02:19:23Z"
       }
+    },
+    {
+      "description": "Representatives Commons,  Smith H added as coauthors",
+      "date": "2026-01-08",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [],
+      "related_entities": [],
+      "_processing": {
+        "log_file_created": "2026-07-14T13:55:10Z"
+      }
     }
   ],
   "sponsorships": [
@@ -78,6 +92,22 @@
       "entity_type": "person",
       "primary": false,
       "person_id": "~{\"name\": \"Julie McGuire\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Matt Commons",
+      "classification": "coauthor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Matt Commons\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Hunter Smith",
+      "classification": "coauthor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Hunter Smith\"}",
       "organization_id": null
     }
   ],
@@ -127,6 +157,6 @@
     "division_id": "ocd-division/country:us/state:in"
   },
   "_processing": {
-    "logs_latest_update": "2025-12-03T02:19:23Z"
+    "logs_latest_update": "2026-07-14T13:55:10Z"
   }
 }

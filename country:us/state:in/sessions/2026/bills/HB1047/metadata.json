@@ -17,7 +17,11 @@
     }
   ],
   "other_titles": [],
-  "other_identifiers": [],
+  "other_identifiers": [
+    {
+      "identifier": "ocd-bill-in-2026-hb1047"
+    }
+  ],
   "actions": [
     {
       "description": "First reading: referred to Committee on Financial Institutions",
@@ -47,6 +51,16 @@
       "_processing": {
         "log_file_created": "2025-12-03T02:19:23Z"
       }
+    },
+    {
+      "description": "Representative Andrade added as coauthor",
+      "date": "2026-01-08",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "classification": [],
+      "related_entities": [],
+      "_processing": {
+        "log_file_created": "2026-07-14T13:55:10Z"
+      }
     }
   ],
   "sponsorships": [
@@ -56,6 +70,14 @@
       "entity_type": "person",
       "primary": true,
       "person_id": "~{\"name\": \"Jake Teshka\"}",
+      "organization_id": null
+    },
+    {
+      "name": "Mike Andrade",
+      "classification": "coauthor",
+      "entity_type": "person",
+      "primary": false,
+      "person_id": "~{\"name\": \"Mike Andrade\"}",
       "organization_id": null
     }
   ],
@@ -105,6 +127,6 @@
     "division_id": "ocd-division/country:us/state:in"
   },
   "_processing": {
-    "logs_latest_update": "2025-12-03T02:19:23Z"
+    "logs_latest_update": "2026-07-14T13:55:10Z"
   }
 }
